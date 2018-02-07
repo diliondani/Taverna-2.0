@@ -1,0 +1,23 @@
+{
+  "name": "taverna-2.0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "taverna.go",
+  "dependencies": {
+    
+  },
+  "devDependencies": {
+    "cssnano": "^3.10.0",
+    "postcss-cli": "^4.1.1",
+    "purgecss": "^0.20.0",
+    "tailwindcss": "^0.4.1"
+  },
+  "scripts": {
+    "compile-css": "./node_modules/.bin/tailwind build resources/main.sass -c resources/tailwind.js -o public/css/main.css",
+    "purge-css":"./node_modules/.bin/purgecss --css public/css/main.css --content templates/index.gohtml --out resources/",
+    "minify-css": "./node_modules/.bin/postcss ./resources/main.css > ./resources/main.min.css",
+    "prepare-css": "npm run compile-css && npm run purge-css && npm run minify-css"
+  },
+  "author": "Dilion Dani",
+  "license": "ISC"
+}

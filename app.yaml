@@ -1,0 +1,37 @@
+runtime: go
+api_version: go1
+
+handlers:
+- url: /public
+  static_dir: public
+  
+- url: /favicon.ico
+  static_files: public/manifest/favicon.ico
+  upload: public/manifest/favicon.ico
+
+- url: /manifest.json
+  static_files: public/manifest/manifest.json
+  upload: public/manifest/manifest.json
+
+- url: /sw.js
+  static_files: public/js/sw.js
+  upload: public/js/sw.js
+
+- url: /sw.html
+  static_files: public/html/sw.html
+  upload: public/html/sw.html
+
+- url: /.*
+  script: _go_app
+  secure: always
+
+skip_files:
+- ^(.*/)?#.*#$
+- ^(.*/)?.*~$
+- ^(.*/)?.*\.py[co]$
+- ^(.*/)?.*/RCS/.*$
+- ^(.*/)?\..*$
+- ^(.*/)?.*\.json$
+- node_modules/
+- resources/
+- functions/
