@@ -1,1 +1,1 @@
-## A website for Taverna.cat restaurant writtemn in golang on GAE
+# A website for Taverna.cat restaurant written in golang on GAE
