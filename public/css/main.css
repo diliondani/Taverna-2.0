@@ -610,6 +610,33 @@ button,
   * @import "components/forms";
   */
 
+.amp-web-push button {
+  border-radius: 2px;
+  border: 0;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px 15px;
+  cursor: pointer;
+  outline: none;
+  font-size: inherit;
+  font-weight: inherit;
+  background: #2196f3;
+  color: white;
+  display: inline-block;
+  box-shadow: rgba(0, 0, 0, .12) 0 1px 6px, rgba(0, 0, 0, .12) 0 1px 4px;
+  text-align: center;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
+.amp-web-push button:hover {
+  background: #269bf8;
+}
+
+.amp-web-push button:active {
+  background: #1c91ee;
+  transform: scale(.99);
+}
+
 body {
   background-image: url(public/images/sapalomera-small.svg);
 }
@@ -617,6 +644,11 @@ body {
 .header-title {
   font-family: 'Trochut', cursive;
   margin-top: -.4rem;
+}
+
+.clipped {
+  padding: .85rem;
+  clip-path: inset(10px round 10px);
 }
 
 .min-width-300 {

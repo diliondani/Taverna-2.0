@@ -7,14 +7,18 @@
     <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
     <script async src="https://cdn.ampproject.org/v0.js"></script>
     <script async custom-element="amp-install-serviceworker" src="https://cdn.ampproject.org/v0/amp-install-serviceworker-0.1.js"></script>
+    <!--<script async custom-element="amp-web-push" src="https://cdn.ampproject.org/v0/amp-web-push-0.1.js"></script>-->
     <script async custom-element="amp-user-notification" src="https://cdn.ampproject.org/v0/amp-user-notification-0.1.js"></script>
     <script async custom-element="amp-font" src="https://cdn.ampproject.org/v0/amp-font-0.1.js"></script>
-    <link rel="canonical" href="/">
-    <link rel="alternate" hreflang="en" href="{{.HostName}}/index.html" />
+
+    <link rel="canonical" hreflang="en" href="{{.HostName}}/en/index.html" />
     <link rel="alternate" hreflang="es" href="{{.HostName}}/fr/index.html" />
-    <link rel="alternate" hreflang="ca" href="{{.HostName}}/ja/index.html" />
+    <link rel="alternate" hreflang="ca" href="{{.HostName}}/ca/index.html" />
     <meta name="viewport" content="width=device-width, minimum-scale=1 initial-scale=1">
-    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
+    <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style>
+    <noscript>
+        <style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style>
+    </noscript>
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Catalan Restaurant in Blanes - Costa Brava | Tastes of Catalonia</title>
     <meta name="description" content="Located in Blanes - Costa Brava near Catalonia Square, Taverna.cat offers a Catalan menu 
@@ -22,12 +26,11 @@
         Using only local ingredients and following traditional recipies is at the heart of the Taverna.cat experience. 
         Enjoy alfresco dining on the beach esplanade terrace, the warmth of the beautiful dining room for a more intimate setting, or sit at the bar for a drink. 
         Lunch is a favourite with locals while dinner is as tasty and elegant at every turn.
-        FICCG authorization pending (The Catalan Institute of Cuisine and Gastronomic Culture Foundation)"> 
-    <link rel="manifest"  type="application/manifest+json" href="/manifest.json">
-    {{template "favicons"}}
+        FICCG authorization pending (The Catalan Institute of Cuisine and Gastronomic Culture Foundation)">
+    <link rel="manifest" type="application/manifest+json" href="/manifest.json"> {{template "favicons"}}
 
-    
-    
+
+
     <!-- <script>
         (function (H) {
             H.className = H.className.replace(/\bno-js\b/, 'js')
@@ -43,7 +46,41 @@
     <!-- Any of your own CSS would go here -->
     <!-- <link rel="stylesheet" href="public/css/main.css"> -->
     <style amp-custom>
-        html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}main{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}b,strong{font-weight:inherit;font-weight:bolder}svg:not(:root){overflow:hidden}button{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0;overflow:visible;text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}menu{display:block}[hidden],template{display:none}html{box-sizing:border-box;font-family:sans-serif}*,:after,:before{box-sizing:inherit}h1,h2,p{margin:0}button{background:transparent;padding:0}button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color}[tabindex="-1"]:focus{outline:none}*,:after,:before{border:0 solid #dae1e7}[type=button],[type=reset],[type=submit],button{border-radius:0}button{font-family:inherit}[role=button],button{cursor:pointer}body{background-image:url(public/images/sapalomera-small.svg)}.header-title{font-family:Trochut,cursive;margin-top:-.4rem}.min-width-300{min-width:300px}amp-user-notification>div{padding:1rem;display:flex;align-items:center;justify-content:center}.loader{color:#6590ab;font-size:90px;text-indent:-9999em;overflow:hidden;width:1em;height:1em;border-radius:50%;margin:72px auto;position:relative;-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-animation:a 1.7s infinite ease,b 1.7s infinite ease;animation:a 1.7s infinite ease,b 1.7s infinite ease}@-webkit-keyframes a{0%{box-shadow:0 -.83em 0 -.4em,0 -.83em 0 -.42em,0 -.83em 0 -.44em,0 -.83em 0 -.46em,0 -.83em 0 -.477em}5%,95%{box-shadow:0 -.83em 0 -.4em,0 -.83em 0 -.42em,0 -.83em 0 -.44em,0 -.83em 0 -.46em,0 -.83em 0 -.477em}10%,59%{box-shadow:0 -.83em 0 -.4em,-.087em -.825em 0 -.42em,-.173em -.812em 0 -.44em,-.256em -.789em 0 -.46em,-.297em -.775em 0 -.477em}20%{box-shadow:0 -.83em 0 -.4em,-.338em -.758em 0 -.42em,-.555em -.617em 0 -.44em,-.671em -.488em 0 -.46em,-.749em -.34em 0 -.477em}38%{box-shadow:0 -.83em 0 -.4em,-.377em -.74em 0 -.42em,-.645em -.522em 0 -.44em,-.775em -.297em 0 -.46em,-.82em -.09em 0 -.477em}to{box-shadow:0 -.83em 0 -.4em,0 -.83em 0 -.42em,0 -.83em 0 -.44em,0 -.83em 0 -.46em,0 -.83em 0 -.477em}}@keyframes a{0%{box-shadow:0 -.83em 0 -.4em,0 -.83em 0 -.42em,0 -.83em 0 -.44em,0 -.83em 0 -.46em,0 -.83em 0 -.477em}5%,95%{box-shadow:0 -.83em 0 -.4em,0 -.83em 0 -.42em,0 -.83em 0 -.44em,0 -.83em 0 -.46em,0 -.83em 0 -.477em}10%,59%{box-shadow:0 -.83em 0 -.4em,-.087em -.825em 0 -.42em,-.173em -.812em 0 -.44em,-.256em -.789em 0 -.46em,-.297em -.775em 0 -.477em}20%{box-shadow:0 -.83em 0 -.4em,-.338em -.758em 0 -.42em,-.555em -.617em 0 -.44em,-.671em -.488em 0 -.46em,-.749em -.34em 0 -.477em}38%{box-shadow:0 -.83em 0 -.4em,-.377em -.74em 0 -.42em,-.645em -.522em 0 -.44em,-.775em -.297em 0 -.46em,-.82em -.09em 0 -.477em}to{box-shadow:0 -.83em 0 -.4em,0 -.83em 0 -.42em,0 -.83em 0 -.44em,0 -.83em 0 -.46em,0 -.83em 0 -.477em}}@-webkit-keyframes b{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes b{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}.bg-fixed{background-attachment:fixed}.bg-grey-light{background-color:#dae1e7}.bg-grey-0\.5{background-color:rgba(184,194,204,.5)}.bg-white{background-color:#fff}.bg-cadetblue-dark{background-color:#36637c}.bg-blue-sky{background-color:#95cdef}.bg-mute-orange{background-color:#c8862f}.bg-center-bottom{background-position:bottom}.bg-no-repeat{background-repeat:no-repeat}.bg-cover{background-size:cover}.border-transparent{border-color:transparent}.border-black{border-color:#22292f}.rounded{border-radius:.25rem}.rounded-full{border-radius:9999px}.border{border-width:1px}.block{display:block}.hidden{display:none}.flex{display:flex}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.flex-grow{flex-grow:1}.flex-shrink{flex-shrink:1}.flex-no-shrink{flex-shrink:0}.font-sans{font-family:Quattrocento Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif}.font-bold{font-weight:700}.h-12{height:3rem}.h-full{height:100%}.leading-none{line-height:1}.m-1{margin:.25rem}.m-2{margin:.5rem}.my-1{margin-top:.25rem;margin-bottom:.25rem}.mx-2{margin-left:.5rem;margin-right:.5rem}.my-4{margin-top:1rem;margin-bottom:1rem}.mr-4{margin-right:1rem}.mr-6{margin-right:1.5rem}.max-w-sm{max-width:30rem}.p-2{padding:.5rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.fixed{position:fixed}.text-justify{text-align:justify}.text-black{color:#22292f}.text-grey-darker{color:#606f7b}.text-grey-lighter{color:#f1f5f8}.text-white{color:#fff}.text-cadetblue-dark{color:#36637c}.text-lg{font-size:1.125rem}.text-4xl{font-size:2.25rem}.no-underline{text-decoration:none}.tracking-normal{letter-spacing:0}.visible{visibility:visible}.w-12{width:3rem}.clipped{padding:.85rem;clip-path:inset(10px round 10px);}
+        html{line-height:1.15;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}header,nav,section{display:block}h1{font-size:2em;margin:.67em 0}main{display:block}a{background-color:transparent;-webkit-text-decoration-skip:objects}b,strong{font-weight:inherit;font-weight:bolder}svg:not(:root){overflow:hidden}button{font-family:sans-serif;font-size:100%;line-height:1.15;margin:0;overflow:visible;text-transform:none}[type=reset],[type=submit],button,html [type=button]{-webkit-appearance:button}[type=button]::-moz-focus-inner,[type=reset]::-moz-focus-inner,[type=submit]::-moz-focus-inner,button::-moz-focus-inner{border-style:none;padding:0}[type=button]:-moz-focusring,[type=reset]:-moz-focusring,[type=submit]:-moz-focusring,button:-moz-focusring{outline:1px dotted ButtonText}[type=checkbox],[type=radio]{box-sizing:border-box;padding:0}[type=number]::-webkit-inner-spin-button,[type=number]::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}[type=search]::-webkit-search-cancel-button,[type=search]::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}menu{display:block}[hidden],template{display:none}html{box-sizing:border-box;font-family:sans-serif}*,:after,:before{box-sizing:inherit}h1,h2,p{margin:0}button{background:transparent;padding:0}button:focus{outline:1px dotted;outline:5px auto -webkit-focus-ring-color}[tabindex="-1"]:focus{outline:none!important}*,:after,:before{border:0 solid #dae1e7}[type=button],[type=reset],[type=submit],button{border-radius:0}button{font-family:inherit}[role=button],button{cursor:pointer}.amp-web-push button{border-radius:2px;border:0;box-sizing:border-box;margin:0;padding:10px 15px;cursor:pointer;outline:none;font-size:inherit;font-weight:inherit;background:#2196f3;color:#fff;display:inline-block;box-shadow:0 1px 6px rgba(0,0,0,.12),0 1px 4px rgba(0,0,0,.12);text-align:center;-webkit-tap-highlight-color:rgba(0,0,0,0)}.amp-web-push button:hover{background:#269bf8}.amp-web-push button:active{background:#1c91ee;transform:scale(.99)}body{background-image:url(public/images/sapalomera-small.svg)}.header-title{font-family:Trochut,cursive;margin-top:-.4rem}.clipped{padding:.85rem;clip-path:inset(10px round 10px)}.min-width-300{min-width:300px}amp-user-notification>div{padding:1rem;display:flex;align-items:center;justify-content:center}.loader{color:#6590ab;font-size:90px;text-indent:-9999em;overflow:hidden;width:1em;height:1em;border-radius:50%;margin:72px auto;position:relative;-webkit-transform:translateZ(0);transform:translateZ(0);-webkit-animation:a 1.7s infinite ease,b 1.7s infinite ease;animation:a 1.7s infinite ease,b 1.7s infinite ease}@-webkit-keyframes a{0%{box-shadow:0 -.83em 0 -.4em,0 -.83em 0 -.42em,0 -.83em 0 -.44em,0 -.83em 0 -.46em,0 -.83em 0 -.477em}5%,95%{box-shadow:0 -.83em 0 -.4em,0 -.83em 0 -.42em,0 -.83em 0 -.44em,0 -.83em 0 -.46em,0 -.83em 0 -.477em}10%,59%{box-shadow:0 -.83em 0 -.4em,-.087em -.825em 0 -.42em,-.173em -.812em 0 -.44em,-.256em -.789em 0 -.46em,-.297em -.775em 0 -.477em}20%{box-shadow:0 -.83em 0 -.4em,-.338em -.758em 0 -.42em,-.555em -.617em 0 -.44em,-.671em -.488em 0 -.46em,-.749em -.34em 0 -.477em}38%{box-shadow:0 -.83em 0 -.4em,-.377em -.74em 0 -.42em,-.645em -.522em 0 -.44em,-.775em -.297em 0 -.46em,-.82em -.09em 0 -.477em}to{box-shadow:0 -.83em 0 -.4em,0 -.83em 0 -.42em,0 -.83em 0 -.44em,0 -.83em 0 -.46em,0 -.83em 0 -.477em}}@keyframes a{0%{box-shadow:0 -.83em 0 -.4em,0 -.83em 0 -.42em,0 -.83em 0 -.44em,0 -.83em 0 -.46em,0 -.83em 0 -.477em}5%,95%{box-shadow:0 -.83em 0 -.4em,0 -.83em 0 -.42em,0 -.83em 0 -.44em,0 -.83em 0 -.46em,0 -.83em 0 -.477em}10%,59%{box-shadow:0 -.83em 0 -.4em,-.087em -.825em 0 -.42em,-.173em -.812em 0 -.44em,-.256em -.789em 0 -.46em,-.297em -.775em 0 -.477em}20%{box-shadow:0 -.83em 0 -.4em,-.338em -.758em 0 -.42em,-.555em -.617em 0 -.44em,-.671em -.488em 0 -.46em,-.749em -.34em 0 -.477em}38%{box-shadow:0 -.83em 0 -.4em,-.377em -.74em 0 -.42em,-.645em -.522em 0 -.44em,-.775em -.297em 0 -.46em,-.82em -.09em 0 -.477em}to{box-shadow:0 -.83em 0 -.4em,0 -.83em 0 -.42em,0 -.83em 0 -.44em,0 -.83em 0 -.46em,0 -.83em 0 -.477em}}@-webkit-keyframes b{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}@keyframes b{0%{-webkit-transform:rotate(0deg);transform:rotate(0deg)}to{-webkit-transform:rotate(1turn);transform:rotate(1turn)}}.bg-fixed{background-attachment:fixed}.bg-grey-light{background-color:#dae1e7}.bg-grey-0\.5{background-color:rgba(184,194,204,.5)}.bg-white{background-color:#fff}.bg-cadetblue-dark{background-color:#36637c}.bg-blue-sky{background-color:#95cdef}.bg-mute-orange{background-color:#c8862f}.hover\:bg-white:hover{background-color:#fff}.bg-center-bottom{background-position:bottom}.bg-no-repeat{background-repeat:no-repeat}.bg-cover{background-size:cover}.border-transparent{border-color:transparent}.border-black{border-color:#22292f}.hover\:border-transparent:hover{border-color:transparent}.rounded{border-radius:.25rem}.rounded-full{border-radius:9999px}.border{border-width:1px}.block{display:block}.hidden{display:none}.flex{display:flex}.flex-wrap{flex-wrap:wrap}.items-center{align-items:center}.justify-end{justify-content:flex-end}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.flex-grow{flex-grow:1}.flex-shrink{flex-shrink:1}.flex-no-shrink{flex-shrink:0}.font-sans{font-family:Quattrocento Sans,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica Neue,sans-serif}.font-bold{font-weight:700}.h-12{height:3rem}.h-full{height:100%}.leading-none{line-height:1}.m-1{margin:.25rem}.m-2{margin:.5rem}.m-4{margin:1rem}.my-1{margin-top:.25rem;margin-bottom:.25rem}.mx-2{margin-left:.5rem;margin-right:.5rem}.my-4{margin-top:1rem;margin-bottom:1rem}.mr-4{margin-right:1rem}.mr-6{margin-right:1.5rem}.max-w-sm{max-width:30rem}.p-2{padding:.5rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.px-4{padding-left:1rem;padding-right:1rem}.fixed{position:fixed}.relative{position:relative}.text-justify{text-align:justify}.text-black{color:#22292f}.text-grey-darker{color:#606f7b}.text-grey-lighter{color:#f1f5f8}.text-white{color:#fff}.text-cadetblue-dark{color:#36637c}.hover\:text-white:hover{color:#fff}.hover\:text-cadetblue-dark:hover{color:#36637c}.text-lg{font-size:1.125rem}.text-4xl{font-size:2.25rem}.no-underline{text-decoration:none}.tracking-normal{letter-spacing:0}.visible{visibility:visible}.w-12{width:3rem}@media (min-width:576px){.sm\:hidden{display:none}}
+        #cta {
+            color: white;
+            text-shadow: 1px 1px 2px grey, 0 0 1em darkgrey, 0 0 0.2em black;
+            background: linear-gradient(#fdd500, #cb0000, #fdd500, #cb0000, #fdd500,#cb0000, #fdd500, #cb0000, #fdd500);
+            background-size: 100% 100%;
+            
+        }
+        #cta:hover {
+            background: linear-gradient(#e3c000, #b10000, #e3c000, #b10000, #e3c000,#b10000, #e3c000, #b10000, #e3c000);
+            text-shadow: 1px 1px 2px black, 0 0 1em beige, 0 0 0.2em blanchedalmond;
+            border-color: whitesmoke;
+            border-width: 1px;
+            
+        }
+        #cta:active {
+            transition: gradient 0.2s ease-in-out;
+            animation: button-bounce 2200ms forwards infinite cubic-bezier(0.165, 0.84, 0.44, 1);
+
+        }
+        @keyframes button-bounce {
+            0% {
+                transform: scale(1);
+            }
+            10% {
+                transform: scale(.96);
+            }
+            20% {
+                transform: scale(1.04);
+            }
+            52%,
+            100% {
+                transform: scale(1);
+            }
+        }
     </style>
 
     <!--[if lte IE 9]>
@@ -52,12 +89,29 @@
     {{template "index-metadata"}}
 
 </head>
+
 <body class="font-sans h-full bg-center-bottom bg-fixed bg-no-repeat bg-cover bg-blue-sky">
+    
+    <!-- AMP Web Push Extension Configuration -->
+    <!--
+    <amp-web-push id="amp-web-push" layout="nodisplay" helper-iframe-url="{{.HostName}}/amp-web-push-helper-frame.html" permission-dialog-url="{{.HostName}}/amp-web-push-permission-dialog.html"
+        service-worker-url="{{.HostName}}/sw.js"></amp-web-push>
+
+    <amp-web-push-widget visibility="unsubscribed" layout="fixed" width="200" height="50" id="permission_div">
+        <button on="tap:amp-web-push.subscribe">Subscribe to Notifications</button>
+    </amp-web-push-widget>
+    <amp-web-push-widget visibility="subscribed" layout="fixed" width="200" height="50">
+        <button on="tap:amp-web-push.unsubscribe">Unsubscribe me from Notifications</button>
+    </amp-web-push-widget>
+    <amp-web-push-widget visibility="blocked" layout="fixed" width="200" height="50">
+        Looks like you've blocked notifications!</amp-web-push-widget>
+    -->
+
     <!-- Header section containing title -->
     <header class="">
         <div class="flex justify-end">
             {{$langclass := "text-grey-darker no-underline bg-grey-light rounded-full h-12 w-12 my-1 mx-2 flex items-center justify-center hover:border-transparent hover:text-cadetblue-dark hover:bg-white"}}
-            <a href="#" class= {{$langclass}}>CAT</a>
+            <a href="#" class="text-grey-darker no-underline bg-grey-light rounded-full h-12 w-12 my-1 mx-2 flex items-center justify-center hover:border-transparent hover:text-cadetblue-dark hover:bg-white">CAT</a>
             <a href="#" class= {{$langclass}}>ESP</a>
             <a href="#" class= {{$langclass}}>ENG</a>
         </div>
@@ -71,7 +125,7 @@
 
             <div class="flex items-center justify-center text-lg flex-grow min-width-300">
                 {{$menuitemclass := "text-grey-lighter hover:text-white mr-4 py-3 no-underline"}}
-                <a href="#responsive-header" class= {{$menuitemclass}}>
+                <a href="#responsive-header" class="text-grey-lighter hover:text-white mr-4 py-3 no-underline">
                     About
                 </a>
                 <a href="#responsive-header" class= {{$menuitemclass}}>
@@ -80,7 +134,7 @@
                 <a href="#responsive-header" class= {{$menuitemclass}}>
                     Blog
                 </a>
-                <a href="#" id="cta" class="text-lg px-4 py-2 leading-none border rounded text-black font-bold border-black bg-mute-orange no-underline hover:border-transparent hover:text-cadetblue-dark hover:bg-white">
+                <a href="#" id="cta" class="text-lg px-4 py-2 leading-none border rounded text-black font-bold border-black no-underline">
                     Book Now!
                 </a>
             </div>
@@ -91,13 +145,13 @@
         <div>
             <h1 class="m-1 max-w-sm">Catalan Restaurant in Blanes - Costa Brava | Tastes of Catalonia</h1>
 
-            <p class="m-4 max-w-sm text-justify bg-grey-0.5 clipped">Located in Blanes - Costa Brava near Catalonia Square, Taverna.cat offers a Catalan menu which incorperates the best
-                    of two Mediterranean worlds: sea and mountain. Using only local ingredients and following traditional recipies
-                    is at the heart of the Taverna.cat experience. Enjoy alfresco dining on the beach esplanade terrace, the warmth
-                    of the beautiful dining room for a more intimate setting, or sit at the bar for a drink. Lunch is a favourite
-                    with locals while dinner is as tasty and elegant at every turn.
-                    <a href="http://www.cuinacatalana.eu/">FICCG </a> authorization pending (The Catalan Institute of Cuisine and Gastronomic Culture Foundation)</p>
-            
+            <p class="m-4 max-w-sm text-justify bg-grey-0.5 clipped">Located in Blanes - Costa Brava near Catalonia Square, Taverna.cat offers a Catalan menu which incorperates the
+                best of two Mediterranean worlds: sea and mountain. Using only local ingredients and following traditional
+                recipies is at the heart of the Taverna.cat experience. Enjoy alfresco dining on the beach esplanade terrace,
+                the warmth of the beautiful dining room for a more intimate setting, or sit at the bar for a drink. Lunch
+                is a favourite with locals while dinner is as tasty and elegant at every turn.
+                <a href="http://www.cuinacatalana.eu/">FICCG </a> authorization pending (The Catalan Institute of Cuisine and Gastronomic Culture Foundation)</p>
+
         </div>
         <div>
             <h2 class="max-w-sm">News</h2>
@@ -128,27 +182,15 @@
             }
             </script>
     </amp-analytics>
-    <amp-install-serviceworker src="/sw.js"
-            data-iframe-src="sw.html"
-            layout="nodisplay">
+    <amp-install-serviceworker src="{{.HostName}}/sw.js" data-iframe-src="{{.HostName}}/sw.html" layout="nodisplay">
     </amp-install-serviceworker>
     <amp-user-notification id="my-notification" layout="nodisplay">
         <div>This is an amp-user-notification. It uses local storage to store the dismissed state.
             <button on="tap:my-notification.dismiss" class="ampstart-btn caps ml1">I accept</button>
         </div>
     </amp-user-notification>
-    <amp-font
-      layout="nodisplay"
-      font-family="Trochut"
-      timeout="800"
-      on-load-remove-class="loader"
-      on-error-remove-class="loader"></amp-font>
-    <amp-font
-      layout="nodisplay"
-      font-family="Quattrocento Sans"
-      timeout="800"
-      on-load-remove-class="loader"
-      on-error-remove-class="loader"></amp-font>
-    </body>
+    <amp-font layout="nodisplay" font-family="Trochut" timeout="800" on-load-remove-class="loader" on-error-remove-class="loader"></amp-font>
+    <amp-font layout="nodisplay" font-family="Quattrocento Sans" timeout="800" on-load-remove-class="loader" on-error-remove-class="loader"></amp-font>
+</body>
 
 </html>

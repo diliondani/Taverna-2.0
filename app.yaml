@@ -21,6 +21,14 @@ handlers:
   static_files: public/html/sw.html
   upload: public/html/sw.html
 
+- url: /amp-web-push-helper-frame.html
+  static_files: public/html/amp-web-push-helper-frame.html
+  upload: public/html/amp-web-push-helper-frame.html
+
+- url: /amp-web-push-permission-dialog.html
+  static_files: public/html/amp-web-push-permission-dialog.html
+  upload: public/html/amp-web-push-permission-dialog.html
+
 - url: /.*
   script: _go_app
   secure: always

@@ -26,6 +26,14 @@ func root(w http.ResponseWriter, r *http.Request) {
 	c := appengine.NewContext(r)
 	hn, _ := appengine.ModuleHostname(c, "", "", "")
 	log.Debugf(c, "%v", hn)
-	pd := PageData{"https://" + hn, "en"}
+	if pusher, ok := w.(http.Pusher); ok {
+		// Push is supported.
+		log.Debugf(c, "Pusher is available %v", pusher)
+	}
+	if hn == "localhost:8080" {
+		hn = "https://localhost"
+	}
+
+	pd := PageData{hn, "en"}
 	tpl.ExecuteTemplate(w, "index.gohtml", pd)
 }
