@@ -1,4 +1,4 @@
-package taverna
+package main
 
 import (
 	"html/template"
@@ -19,7 +19,12 @@ var tpl *template.Template
 
 func init() {
 	tpl = template.Must(template.ParseGlob("templates/*.gohtml"))
+
+}
+
+func main() {
 	http.HandleFunc("/", root)
+	appengine.Main()
 }
 
 func root(w http.ResponseWriter, r *http.Request) {
